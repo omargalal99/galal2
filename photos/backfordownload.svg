@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="500" viewBox="0 0 1366 500">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_295" data-name="Rectangle 295" width="1366" height="500" transform="translate(0 1537)" fill="#345aa5" opacity="0.07"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_296" data-name="Rectangle 296" width="1366" height="500" fill="#345aa5" opacity="0"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="103" height="88" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Download-background" transform="translate(0 -1537)">
+    <rect id="Rectangle_23" data-name="Rectangle 23" width="1366" height="500" transform="translate(0 1537)" fill="#345aa5" opacity="0.1"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" opacity="0.2" clip-path="url(#clip-path)">
+      <circle id="Ellipse_21" data-name="Ellipse 21" cx="132" cy="132" r="132" transform="translate(1234 1905)" fill="#345aa5" opacity="0.29"/>
+    </g>
+    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(0 1537)" opacity="0.2" clip-path="url(#clip-path-2)">
+      <circle id="Ellipse_22" data-name="Ellipse 22" cx="132" cy="132" r="132" transform="translate(-132 -132)" fill="#345aa5" opacity="0.29"/>
+    </g>
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="186" cy="186" r="186" transform="translate(800 1587)" fill="#345aa5" opacity="0.12"/>
+    <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(13 1938)" opacity="0.21" clip-path="url(#clip-path-3)">
+      <g transform="translate(-1441 -1600)">
+        <circle id="Ellipse_20" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1426 -1600)">
+        <circle id="Ellipse_20-2" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1411 -1600)">
+        <circle id="Ellipse_20-3" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1396 -1600)">
+        <circle id="Ellipse_20-4" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1381 -1600)">
+        <circle id="Ellipse_20-5" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1366 -1600)">
+        <circle id="Ellipse_20-6" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1351 -1600)">
+        <circle id="Ellipse_20-7" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1441 -1585)">
+        <circle id="Ellipse_20-8" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1426 -1585)">
+        <circle id="Ellipse_20-9" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1411 -1585)">
+        <circle id="Ellipse_20-10" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1396 -1585)">
+        <circle id="Ellipse_20-11" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1381 -1585)">
+        <circle id="Ellipse_20-12" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1366 -1585)">
+        <circle id="Ellipse_20-13" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1351 -1585)">
+        <circle id="Ellipse_20-14" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1441 -1570)">
+        <circle id="Ellipse_20-15" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1426 -1570)">
+        <circle id="Ellipse_20-16" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1411 -1570)">
+        <circle id="Ellipse_20-17" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1396 -1570)">
+        <circle id="Ellipse_20-18" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1381 -1570)">
+        <circle id="Ellipse_20-19" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1366 -1570)">
+        <circle id="Ellipse_20-20" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1351 -1570)">
+        <circle id="Ellipse_20-21" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1441 -1555)">
+        <circle id="Ellipse_20-22" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1426 -1555)">
+        <circle id="Ellipse_20-23" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1411 -1555)">
+        <circle id="Ellipse_20-24" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1396 -1555)">
+        <circle id="Ellipse_20-25" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1381 -1555)">
+        <circle id="Ellipse_20-26" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1366 -1555)">
+        <circle id="Ellipse_20-27" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1351 -1555)">
+        <circle id="Ellipse_20-28" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1441 -1540)">
+        <circle id="Ellipse_20-29" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1426 -1540)">
+        <circle id="Ellipse_20-30" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1411 -1540)">
+        <circle id="Ellipse_20-31" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1396 -1540)">
+        <circle id="Ellipse_20-32" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1381 -1540)">
+        <circle id="Ellipse_20-33" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1366 -1540)">
+        <circle id="Ellipse_20-34" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1351 -1540)">
+        <circle id="Ellipse_20-35" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1441 -1525)">
+        <circle id="Ellipse_20-36" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1426 -1525)">
+        <circle id="Ellipse_20-37" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1411 -1525)">
+        <circle id="Ellipse_20-38" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1396 -1525)">
+        <circle id="Ellipse_20-39" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1381 -1525)">
+        <circle id="Ellipse_20-40" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1366 -1525)">
+        <circle id="Ellipse_20-41" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+      <g transform="translate(-1351 -1525)">
+        <circle id="Ellipse_20-42" data-name="Ellipse 20" cx="2.5" cy="2.5" r="2.5" transform="translate(1441 1600)" fill="#345aa5"/>
+      </g>
+    </g>
+  </g>
+</svg>

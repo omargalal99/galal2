@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website to contact with doctors and patients">
+    <meta name="theme-color" content="#1877F2">
+    <!-- Css bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!--Render All Elmements Normally  -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Main Template Css File-->
+    <link rel="stylesheet" href="./css/page.css">
+    <!-- Owlcarousel -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <title>Embermed</title>
+</head>
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./photos/logoember.png" alt="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Doctors</a>
+                    <p>Choose your Doctor</p> </li>
+                    <li><a href="#section2">Clinics</a>
+                    <p>Choose clinic near you</p> </li>
+                    <li><a href="#section3">Labs</a>
+                    <p>Book tests & checkups</p> </li>
+                    <li><a href="#section4">Pharmacies</a>
+                    <p>Order your Medicines</p> </li> 
+                    <li><a href="#"><span>For Providers </span><i class="fa-solid fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">Doctors</a></li>
+                        <li><a href="#">Clinic</a></li>
+                        <li><a href="#">Labs</a></li>
+                        <li><a href="#">Pharmacies</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                <button class="log" value="Login/Sign Up">Login/ Sign up</button>
+                <button class="lan">عربي</button>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing Section -->
+    
+    
+    <div class="landing">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./photos/back-ground.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./photos/back-ground2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./photos/back-ground3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="search-ctrls-container">
+            <div role="group" class="btn-group btn-group-lg" style="width: 100%;">
+                <button type="button" class="btn btn-outline-primary">
+                    <div class="d-flex align-items-center">
+                        <div><img src=".//photos/doctor-icon-advanced-search.svg" alt="Doctor"> </div>
+                        <div>
+                            <strong>Doctor</strong>
+                            <br>
+                            <span> Choose your Doctor</span>
+                        </div>
+                    </div>
+                </button>
+                <button type="button" disabled class="btn btn-outline-secondry">
+                    <div class="d-flex align-items-center">
+                        <div> <img src="./photos/Clinic-icon-advanced-search.svg" alt="Clinic"> </div>
+                        <div>
+                            <strong>Clinics</strong>
+                            <br>
+                            <span>Choose clinic near you</span>
+                        </div>
+                    </div>
+                </button>
+                <button type="button" disabled class="btn btn-outline-secondary">
+                    <div class="d-flex align-items-center">
+                        <div><img src="./photos/labs-icon-advanced-search.svg" alt="Labs"> </div>
+                        <div>
+                            <strong>
+                                Labs
+                            </strong>
+                            <br>
+                            <span>Book tests & checkups</span>
+                        </div>
+                    </div>
+                </button>
+                <button type="button" disabled class="btn btn-outline-secondary">
+                    <div class="d-flex align-items-center">
+                        <div><img src="./photos/medicine-icon-advanced-search.svg" alt="Medicines"> </div>
+                        <div>
+                            <strong>
+                                Pharmacies
+                            </strong>
+                            <br>
+                            <span>Order your medicines</span>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    
+    <hr>
+    <div class="input-group input-group-lg">
+        <div class="form-floating flex-grow-1">
+            <select id="profession" class="form-select">
+                <option _ngcontent-ayo-c135="" value="" selected="">Choose Profession</option>
+                <option _ngcontent-ayo-c135="" value="9da1723d-5737-4ced-b601-b9260da74e2e" class="ng-star-inserted">Life Coach</option>
+                <option _ngcontent-ayo-c135="" value="4512879a-ca27-4bce-b1de-99ca3e828d98" class="ng-star-inserted">Nurse</option>
+                <option _ngcontent-ayo-c135="" value="405e67e7-d02f-462b-85fb-9b74ba8416a5" class="ng-star-inserted">
+                    Nutritionist/Dietitian</option>
+                    <option _ngcontent-ayo-c135="" value="6d07e1ba-1d58-43bc-a1a0-acc26c83b070" class="ng-star-inserted">Physical
+                        therapist/Physiotherapist</option>
+                        <option _ngcontent-ayo-c135="" value="8912729b-0bf2-46bc-bb9c-14b81eb32152" class="ng-star-inserted">Physician</option>
+                        <option _ngcontent-ayo-c135="" value="856a33ad-cfea-431a-a8d9-543c4fbddb95" class="ng-star-inserted">
+                            Psychologist/Psychotherapist</option>
+                            <option _ngcontent-ayo-c135="" value="360a44e9-8f27-45bd-8101-b0a2a96b2ea9" class="ng-star-inserted">Veterinarian
+                            </option>   
+            </select>
+            <label _ngcontent-ayo-c135="" for="profession">Profession</label>
+        </div>
+        <div _ngcontent-ayo-c135="" class="form-floating flex-grow-1"><select _ngcontent-ayo-c135="" id="speciality"
+                class="form-select">
+                <option _ngcontent-ayo-c135="" value="" selected="">Choose Speciality</option>
+                <!---->
+            </select><label _ngcontent-ayo-c135="" for="speciality">Speciality</label>
+            <!---->
+        </div>
+        <div _ngcontent-ayo-c135="" class="form-floating flex-grow-1"><select _ngcontent-ayo-c135="" id="medicDegree"
+                class="form-select">
+                <option _ngcontent-ayo-c135="" selected="">Choose degree</option>
+                <!---->
+            </select><label _ngcontent-ayo-c135="" for="city">Doctor Degree</label>
+            <!---->
+        </div>
+        <div _ngcontent-ayo-c135="" class="form-floating flex-grow-1"><select _ngcontent-ayo-c135="" id="area"
+                class="form-select">
+                <option _ngcontent-ayo-c135="" selected="">Choose Country</option>
+                <option _ngcontent-ayo-c135="" value="c0b09e26-2a55-9ba3-5ed4-1223615ac7fc" class="ng-star-inserted">Qatar
+                </option>
+                <option _ngcontent-ayo-c135="" value="fd519331-cfa1-696c-3225-f7682adc14d2" class="ng-star-inserted">Egypt
+                </option>
+                <!---->
+            </select><label _ngcontent-ayo-c135="" for="area">In this Country</label>
+            <!---->
+        </div>
+        <button _ngcontent-ayo-c135="" type="button" class="btn btn-primary flex-grow-1"> Search <fa-icon _ngcontent-ayo-c135=""
+                class="ng-fa-icon ms-3"><svg role="img" aria-hidden="true" focusable="false" data-prefix="fas"
+                    data-icon="search" class="svg-inline--fa fa-search fa-w-16" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                    </path>
+                </svg></fa-icon></button>
+    </div>
+    </div>
+    
+    <!-- End Landing Section -->
+    <!-- Bootstrap End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+    <!-- start Services -->
+    <div class="services">
+        <app-talk-to-doctor _ngcontent-oqk-c140="" _nghost-oqk-c136="">
+            <div _ngcontent-oqk-c136="" class="container mt-4">
+                <div _ngcontent-oqk-c136="" class="row">
+                    <div _ngcontent-oqk-c136="" class="col-12 col-lg-6 mb-3 mb-lg-0">
+                        <div _ngcontent-oqk-c136="" class="card-container">
+                            <div _ngcontent-oqk-c136="" class="row h-100">
+                                <div _ngcontent-oqk-c136=""
+                                    class="col-12 col-md-5 col-lg-12 col-xl-5 mb-3 mb-md-0 mb-lg-3 mb-xl-0"><img
+                                        _ngcontent-oqk-c136="" src="./photos/Talk to a Doctor.png" alt=""></div>
+                                <div _ngcontent-oqk-c136=""
+                                    class="col-12 col-md-7 col-lg-12 col-xl-7 d-flex flex-column justify-content-between">
+                                    <div _ngcontent-oqk-c136="">
+                                        <h3 _ngcontent-oqk-c136="">Talk to a Doctor</h3>
+                                        <p _ngcontent-oqk-c136=""> select preferred doctor and time slot to book an appointment
+                                            (in-clinic or video) consultation </p>
+                                    </div>
+                                    <div _ngcontent-oqk-c136=""><button _ngcontent-oqk-c136="" class="btn btn-primary">Talk to a
+                                            Doctor Online</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div _ngcontent-oqk-c136="" class="col-12 col-lg-6">
+                        <div _ngcontent-oqk-c136="" class="card-container">
+                            <div _ngcontent-oqk-c136="" class="row h-100">
+                                <div _ngcontent-oqk-c136=""
+                                    class="col-12 col-md-5 col-lg-12 col-xl-5 mb-3 mb-md-0 mb-lg-3 mb-xl-0"><img
+                                        _ngcontent-oqk-c136="" src="./photos/Find an Appointment.png" alt=""></div>
+                                <div _ngcontent-oqk-c136=""
+                                    class="col-12 col-md-7 col-lg-12 col-xl-7 d-flex flex-column justify-content-between">
+                                    <div _ngcontent-oqk-c136="">
+                                        <h3 _ngcontent-oqk-c136="">Find an Appointment</h3>
+                                        <p _ngcontent-oqk-c136=""> select preferred doctor and time slot to book an appointment
+                                            (in-clinic or video) consultation </p>
+                                    </div>
+                                    <div _ngcontent-oqk-c136=""><button _ngcontent-oqk-c136="" class="btn btn-primary">Find an
+                                            Appointment</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </app-talk-to-doctor>
+        <app-specialties _ngcontent-oqk-c140="" _nghost-oqk-c137="">
+            <div _ngcontent-oqk-c137="" class="container">
+                <h2 _ngcontent-oqk-c137="">Specialties</h2>
+                <div _ngcontent-oqk-c137="" style="position: relative;" class="ng-star-inserted">
+                    <div _ngcontent-oqk-c137="" class="mb-3">
+                        <owl-carousel-o _ngcontent-oqk-c137="" class="owl-carousel-specialties" _nghost-oqk-c127="">
+                            <div _ngcontent-oqk-c127="" class="owl-carousel owl-theme owl-loaded owl-drag">
+                                <div _ngcontent-oqk-c127="" class="owl-stage-outer ng-star-inserted">
+                                    <owl-stage _ngcontent-oqk-c127="" class="ng-tns-c128-6 ng-star-inserted">
+                                        <div class="ng-tns-c128-6">
+                                            <div class="owl-stage ng-tns-c128-6"
+                                                style="width: 4851px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
+                                                <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight active ng-star-inserted"
+                                                    style="width: 216px; margin-right: 15px;">
+                                                    <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                                                        style="">
+                                                        <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                                                                _ngcontent-oqk-c137="" alt=""
+                                                                src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Faudiology.svg?alt=media&amp;token=aee819c7-a3fb-4f02-835d-100952466d1a"
+                                                                class="ng-star-inserted">
+                                                        
+                
+                <p _ngcontent-oqk-c137="">Audiology</p>
+            </div>
+        </div>
+        <!---->
+        <!---->
+    </div>
+    <!---->
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight active ng-star-inserted"
+        style="width: 216px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137=""
+                    src="./photos/Clinic-icon-advanced-search.svg" alt=""
+                    class="clinic-img ng-star-inserted">
+                <!---->
+                <!---->
+                <p _ngcontent-oqk-c137="">Bariatric Surgery</p>
+            </div>
+        </div>
+        <!---->
+        <!---->
+    </div>
+    <!---->
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight active ng-star-inserted"
+        style="width: 216px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fcardiovascular-disease.svg?alt=media&amp;token=3dbd2e46-bf48-4db6-828b-00a1f9138cd2"
+                    class="ng-star-inserted">
+                <!---->
+                <!---->
+                <!---->
+                <p _ngcontent-oqk-c137="">Cardiovascular Disease</p>
+            </div>
+        </div>
+        <!---->
+        <!---->
+    </div>
+    <!---->
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight active ng-star-inserted"
+        style="width: 216px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fdermatology.svg?alt=media&amp;token=c6d20bb7-3749-4cda-80de-367e9ed6a6fd"
+                    class="ng-star-inserted">
+                <!---->
+                <!---->
+                <!---->
+                <p _ngcontent-oqk-c137="">Dermatology</p>
+            </div>
+        </div>
+        <!---->
+        <!---->
+    </div>
+    <!---->
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight active ng-star-inserted"
+        style="width: 216px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fent-otolaryngology.svg?alt=media&amp;token=cf2c6b1d-36b5-489e-8a9b-ea2b7dd99bdc"
+                    class="ng-star-inserted">
+                <!---->
+                <!---->
+                <!---->
+                <p _ngcontent-oqk-c137="">ENT (Otolaryngology)</p>
+            </div>
+        </div>
+        <!---->
+        <!---->
+    </div>
+    <!---->
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+        style="width: 216px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="./photos/Stomach and.svg"
+                    class="ng-star-inserted">
+               
+                <p _ngcontent-oqk-c137="">Gastroenterology</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+        style="width: 216px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fhepatology.svg?alt=media&amp;token=e4d1e2c4-8687-4cde-81a4-b498698b6095"
+                    class="ng-star-inserted">
+                <!---->
+                <!---->
+                <!---->
+                <p _ngcontent-oqk-c137="">Hepatologist</p>
+            </div>
+        </div>
+        <!---->
+        <!---->
+    </div>
+    <!---->
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+        style="width: 16px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Finternal-medicine.svg?alt=media&amp;token=c27fd513-46e2-4f9f-af07-1c772cbbe384"
+                    class="ng-star-inserted">
+                <!---->
+                <!---->
+                <!---->
+                <p _ngcontent-oqk-c137="">Internal Medicine</p>
+            </div>
+        </div>
+        <!---->
+        <!---->
+    </div>
+    <!---->
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+        style="width: 16px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fneurology.svg?alt=media&amp;token=2bbe17e9-b635-4030-a643-880123b7294f"
+                    class="ng-star-inserted">
+                <!---->
+                <!---->
+                <!---->
+                <p _ngcontent-oqk-c137="">Neurology</p>
+            </div>
+        </div>
+        <!---->
+                                                    <!---->
+                            </div>
+                            <!---->
+                            <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                                style="width:16px; margin-right: 15px;">
+                                <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                                    style="">
+                                    <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                                            _ngcontent-oqk-c137="" alt=""
+                                            src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fob-gyn.svg?alt=media&amp;token=0e39da5b-58e0-45b7-ad89-99ba16e51420"
+                                            class="ng-star-inserted">
+                                        <!---->
+                                        <!---->
+                                        <!---->
+                                        <p _ngcontent-oqk-c137="">Obstetrics and Gynecology (OB/GYN)</p>
+                                    </div>
+                                </div>
+                                                    <!---->
+                                                    <!---->
+                                                </div>
+                                                <!---->
+                    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                        style="width: 10px; margin-right: 15px;">
+                        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                            style="">
+                            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                                    _ngcontent-oqk-c137="" alt=""
+                                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Foncology.svg?alt=media&amp;token=9f7f2b88-e3dd-46e3-a7a3-3e06cb36399a"
+                                    class="ng-star-inserted">
+                                <!---->
+                                <!---->
+                                <!---->
+                                <p _ngcontent-oqk-c137="">Oncology</p>
+                            </div>
+                        </div>
+                                                  
+                    </div>
+                   
+                    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                        style="width: 100px; margin-right: 15px;">
+                        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                            style="">
+                            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                                    _ngcontent-oqk-c137="" alt=""
+                                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fophthalmology.svg?alt=media&amp;token=e37bfda4-04b7-4e80-a699-cad884a600aa"
+                                    class="ng-star-inserted">
+                            
+                                <p _ngcontent-oqk-c137="">Ophthalmology</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!---->
+                    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                        style="width: 100px; margin-right: 15px;">
+                        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                            style="">
+                            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                                    _ngcontent-oqk-c137="" alt=""
+                                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Forthopedics.svg?alt=media&amp;token=feec6357-e2f0-4442-8f3a-f7dd14bea60e"
+                                    class="ng-star-inserted">
+                                
+                                
+                                
+                                <p _ngcontent-oqk-c137="">Orthopedics</p>
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+                
+                <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                    style="width: 216px; margin-right: 15px;">
+                    <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                        style="">
+                        <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                                _ngcontent-oqk-c137="" alt=""
+                                src="./photos/Pediatrics.svg"
+                                class="ng-star-inserted">
+                            
+                            <p _ngcontent-oqk-c137="">Pediatrics</p>
+                        </div>
+                    </div>
+                                                    
+                                                </div>
+                                               
+            <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                style="width: 216px; margin-right: 15px;">
+                <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                    style="">
+                    <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                            _ngcontent-oqk-c137="" alt=""
+                            src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fphysical-therapy.svg?alt=media&amp;token=1cb4f9ae-be85-4906-8d61-69c756500991"
+                            class="ng-star-inserted">
+                        
+                        <p _ngcontent-oqk-c137="">Physical therapy and rehabilitation</p>
+                    </div>
+                </div>
+                
+            </div>
+                                    
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+        style="width: 216px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fplastic-surgery.svg?alt=media&amp;token=e3bc4c66-0a9e-4aec-8821-b81a0b9af137"
+                    class="ng-star-inserted">
+                
+                <p _ngcontent-oqk-c137="">Plastic Surgery</p>
+            </div>
+        </div>
+        
+    </div>
+    
+                        <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                            style="width: 216px; margin-right: 15px;">
+                            <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                                style="">
+                                <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                                        _ngcontent-oqk-c137="" alt=""
+                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fpulmonary.svg?alt=media&amp;token=89312fcb-15a1-47d1-a1ca-b952702b9dd8"
+                                        class="ng-star-inserted">
+                    
+                                        <p _ngcontent-oqk-c137="">Pulmonary Disease</p>
+                                    </div>
+                                </div>
+                                <!---->
+                                <!---->
+                            </div>
+                            <!---->
+                            <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                                style="width: 216px; margin-right: 15px;">
+                                <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                                    style="">
+                                    <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                                            _ngcontent-oqk-c137="" alt=""
+                                            src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fsurgery-general.svg?alt=media&amp;token=1ecd8867-7bff-4724-ab97-975cfc452e1a"
+                                            class="ng-star-inserted">
+                                        <p _ngcontent-oqk-c137="">Surgery, General</p>
+                                    </div>
+                                </div>
+    </div>
+    <!---->
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+        style="width: 216px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fsurgery-neurological.svg?alt=media&amp;token=bea738b1-7d93-466a-8abd-e396b924a71b"
+                    class="ng-star-inserted">
+        
+        <p _ngcontent-oqk-c137="">Surgery, Neurological (Neurosurgery)</p>
+    </div>
+</div>
+                        
+                    </div>
+                    
+            <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+            style="width: 216px; margin-right: 15px;">
+                        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+                style="">
+        <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                            _ngcontent-oqk-c137="" alt=""
+                                src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Fsurgery-oncology.svg?alt=media&amp;token=ad48d5f0-eae5-428f-a250-a7089290c554"
+                                class="ng-star-inserted">
+                                
+                                <p _ngcontent-oqk-c137="">Surgery, Oncology</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!---->
+    <div class="owl-item ng-tns-c128-6 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+        style="width: 216px; margin-right: 15px;">
+        <div _ngcontent-oqk-c137="" class="specialty-thumbnail ng-star-inserted"
+            style="">
+            <div _ngcontent-oqk-c137="" class="thumbtal-content"><img
+                    _ngcontent-oqk-c137="" alt=""
+                    src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fspeciality%2Furology.svg?alt=media&amp;token=91001b9b-ece4-4c59-bd65-3e2f7ef70805"
+                    class="ng-star-inserted">
+                
+                <p _ngcontent-oqk-c137="">Urology</p>
+            </div>
+        </div>
+                        
+                    </div>
+                                    
+                                        </div>
+                                    </div>
+                                </owl-stage>
+                            </div>
+                            
+                            <div _ngcontent-oqk-c127="" class="owl-nav ng-star-inserted">
+                                <div _ngcontent-oqk-c127="" class="owl-prev disabled"><img
+                                        src="./photos/left.svg"></div>
+                                <div _ngcontent-oqk-c127="" class="owl-next"><img
+                                        src="./photos/right.svg"></div>
+                            </div>
+                            <div _ngcontent-oqk-c127="" class="owl-dots disabled ng-star-inserted">
+                            </div>
+                        </div>
+                </owl-carousel-o>
+                </div>
+            </div> 
+            </div>
+        </app-specialties>
+        <app-top-rated-doctors _ngcontent-oqk-c140="" _nghost-oqk-c131="">
+            <div _ngcontent-oqk-c131="" class="container">
+                <div _ngcontent-oqk-c131="" class="row">
+                    <div _ngcontent-oqk-c131="" class="col-12 col-xl-4">
+                        <h2 _ngcontent-oqk-c131="">Top-rated <br _ngcontent-oqk-c131="" class="d-none d-xl-block">doctors</h2>
+                        <p _ngcontent-oqk-c131="">90% of patients gave these <br _ngcontent-oqk-c131=""
+                                class="d-none d-xl-block">primary care doctors 5 stars</p><button _ngcontent-oqk-c131=""
+                            routerlink="/search-results" class="btn btn-primary mb-4 mb-xl-0 ng-star-inserted" tabindex="0">See
+                            more</button>
+                        <!---->
+                        <!---->
+                    </div>
+                    <div _ngcontent-oqk-c131="" id="slider-col" class="col-12 col-xl-8">
+                        <div _ngcontent-oqk-c131="">
+                            <div _ngcontent-oqk-c131="" class="mb-3">
+                                <owl-carousel-o _ngcontent-oqk-c131="" class="owl-loading owl-carousel-top-doctors"
+                                    _nghost-oqk-c127="">
+                                    <div _ngcontent-oqk-c127="" class="owl-carousel owl-theme owl-loaded owl-drag">
+                                        <div _ngcontent-oqk-c127="" class="owl-stage-outer ng-star-inserted">
+                                            <owl-stage _ngcontent-oqk-c127="" class="ng-tns-c128-11 ng-star-inserted">
+                                                <div class="ng-tns-c128-11">
+                                                    <div class="owl-stage ng-tns-c128-11"
+                                                        style="width: 4350px; transform: translate3d(0px, 0px, 0px); transition: all 0.25s ease 0s;">
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted active"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/9bebd7c7-d56d-4830-9d1b-d801f59454d0">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129="" alt=""
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fusers%2F9bebd7c7-d56d-4830-9d1b-d801f59454d0%2FprofileImages%2Fprofile.jpg?alt=media&amp;token=466f9e10-e492-427f-8ec7-a6b45c3af68c"
+                                                                                        class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">Aya Arabi</h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">
+                                                                                        Psychologist/Psychotherapist <span
+                                                                                            _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> General
+                                                                                        Psychologist/Psychotherapist
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (1 ratings)
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Egypt </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted active"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/3d7387e4-6e9d-434c-93e2-31649044c137">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129="" alt=""
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production%2Fusers%2F3d7387e4-6e9d-434c-93e2-31649044c137%2FprofileImages%2Fprofile.jpg?alt=media&amp;token=e393b7ae-e2a4-48b8-bfe2-bb5f6e0a7888"
+                                                                                        class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">Azza Fouad</h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">
+                                                                                        Physician <span _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> Pediatrics
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (4 ratings)
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Egypt </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                        دكتورة ممتازة جدا و فاهمة كويس و مريحة
+                                                                                        في التعامل
+                                                                                        Excellent doctor. Thank you so much.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted active"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/1d6bedaf-c6f6-496e-a1bf-4cb49111e25a">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129="" alt=""
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fusers%2F1d6bedaf-c6f6-496e-a1bf-4cb49111e25a%2FprofileImages%2Fprofile.jpg?alt=media&amp;token=00d18506-de32-436a-854b-248818df2437"
+                                                                                        class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">Beshoy Elwy Wadea
+                                                                                        Botros</h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">
+                                                                                        Physician <span _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> Surgery, General
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (3 ratings)
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Egypt </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/7a5a3dd4-c0c5-457c-8232-4fd0ab94506b">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129="" alt=""
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fusers%2F7a5a3dd4-c0c5-457c-8232-4fd0ab94506b%2FprofileImages%2Fprofile.jpg?alt=media&amp;token=0f0f755d-21c1-480d-8955-939c415af3c9"
+                                                                                        class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">David Kaldas</h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">
+                                                                                        Physician <span _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> Oncology
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (3 ratings)
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Egypt </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                        Thank you so much Dr. David for your
+                                                                                        help.</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/0f3033f5-c1bd-4e0b-b015-4820ccdb0a69">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129="" alt=""
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fusers%2F0f3033f5-c1bd-4e0b-b015-4820ccdb0a69%2FprofileImages%2Fprofile.jpg?alt=media&amp;token=1e46c9de-bb4a-4e43-b93e-a52f33932aaf"
+                                                                                        class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">Doaa Sabry</h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">
+                                                                                        Physician <span _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> Obstetrics and Gynecology
+                                                                                        (OB/GYN)
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (11
+                                                                                                ratings) </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Egypt </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                        محترمه جدا</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/a6fb4f99-2743-4dfb-8346-1d070be89220">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129=""
+                                                                                        src="assets/images/user-placeholder.svg"
+                                                                                        alt="" class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">Dr Badreldin Elshazly
+                                                                                    </h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">
+                                                                                        Physician <span _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> Pediatrics
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (1 ratings)
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Qatar </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/4cf0816f-7ab2-4890-a77b-a5a6b5a292b1">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129="" alt=""
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fusers%2F4cf0816f-7ab2-4890-a77b-a5a6b5a292b1%2FprofileImages%2Fprofile.jpg?alt=media&amp;token=d0ab9f1f-fa87-4f69-8c7f-ab8598e7ff5d"
+                                                                                        class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">Dr:Bahaa Sobh</h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">
+                                                                                        Physician <span _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> Pediatrics
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (1 ratings)
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Egypt </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/1512cb36-55d1-4e20-a60d-b628ccf72c17">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129="" alt=""
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fusers%2F1512cb36-55d1-4e20-a60d-b628ccf72c17%2FprofileImages%2Fprofile.jpg?alt=media&amp;token=c7a7f9a3-4d04-4ec2-a812-dda105436ded"
+                                                                                        class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">Dr. George Safwat
+                                                                                        Habib</h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">Dentist
+                                                                                        <span _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> General Dentist
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (1 ratings)
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Egypt </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/3f578283-ebda-4389-a7f1-4fc294cb7a34">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129="" alt=""
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fusers%2F3f578283-ebda-4389-a7f1-4fc294cb7a34%2FprofileImages%2Fprofile.jpg?alt=media&amp;token=9dac77a1-2ba8-44a6-8152-027c71244a62"
+                                                                                        class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">Dr. Hany Armia - Slim
+                                                                                        Fit Clinic</h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">
+                                                                                        Physician <span _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> Surgery, General
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (1 ratings)
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Egypt </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <div class="owl-item ng-tns-c128-11 ng-trigger ng-trigger-autoHeight ng-star-inserted"
+                                                            style="width: 420px; margin-right: 15px;">
+                                                            <app-doctor-card _ngcontent-oqk-c131="" _nghost-oqk-c129=""
+                                                                class="ng-star-inserted" style=""><a _ngcontent-oqk-c129=""
+                                                                    href="/doctor-profile/ae7c914f-33ed-48aa-a41d-a9d2ab3f9b8b">
+                                                                    <div _ngcontent-oqk-c129="" class="card">
+                                                                        <div _ngcontent-oqk-c129="" class="card-body">
+                                                                            <div _ngcontent-oqk-c129="" class="d-flex">
+                                                                                <div _ngcontent-oqk-c129="" class="user-img">
+                                                                                    <img _ngcontent-oqk-c129="" alt=""
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/emergency-care-7b001.appspot.com/o/Production-V2%2Fusers%2Fae7c914f-33ed-48aa-a41d-a9d2ab3f9b8b%2FprofileImages%2Fprofile.jpg?alt=media&amp;token=95104e0d-63df-423e-8bd2-b2a2d06af3b6"
+                                                                                        class="ng-star-inserted">
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                    <!---->
+                                                                                </div>
+                                                                                <div _ngcontent-oqk-c129="" class="card-text">
+                                                                                    <h4 _ngcontent-oqk-c129=""
+                                                                                        class="card-title">Dr hany khedr</h4>
+                                                                                    <p _ngcontent-oqk-c129=""
+                                                                                        class="text-muted dr-profession">
+                                                                                        Physician <span _ngcontent-oqk-c129=""
+                                                                                            class="ng-star-inserted">Specialized
+                                                                                            in</span>
+                                                                                        <!----> Pediatrics
+                                                                                    </p>
+                                                                                    <div _ngcontent-oqk-c129=""
+                                                                                        class="row mb-3">
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faStar">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="star"
+                                                                                                    class="svg-inline--fa fa-star fa-w-18"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 576 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> 5 (11
+                                                                                                ratings) </span>
+                                                                                        </div>
+                                                                                        <div _ngcontent-oqk-c129=""
+                                                                                            class="col-6">
+                                                                                            <fa-icon _ngcontent-oqk-c129=""
+                                                                                                class="ng-fa-icon fa-fw fa-lg faMapMarkerAlt">
+                                                                                                <svg role="img"
+                                                                                                    aria-hidden="true"
+                                                                                                    focusable="false"
+                                                                                                    data-prefix="fas"
+                                                                                                    data-icon="map-marker-alt"
+                                                                                                    class="svg-inline--fa fa-map-marker-alt fa-w-12"
+                                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                                    viewBox="0 0 384 512">
+                                                                                                    <path fill="currentColor"
+                                                                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                                                                    </path>
+                                                                                                </svg></fa-icon><span
+                                                                                                _ngcontent-oqk-c129=""
+                                                                                                class="meta-data"> Egypt </span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <p _ngcontent-oqk-c129="" class="card-text">
+                                                                                        ممتاز وشكرا لحضرتك وكل عام وحضرتك بخير
+                                                                                        وصحة وسلامة </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </a></app-doctor-card>
+                                                            <!---->
+                                                            <!---->
+                                                        </div>
+                                                        <!---->
+                                                        <!---->
+                                                    </div>
+                                                </div>
+                                            </owl-stage>
+                                        </div>
+                                        <!---->
+                                        <div _ngcontent-oqk-c127="" class="owl-nav ng-star-inserted">
+                                            <div _ngcontent-oqk-c127="" class="owl-prev disabled"><img
+                                                    src="./photos/left.svg"></div>
+                                            <div _ngcontent-oqk-c127="" class="owl-next"><img
+                                                    src="./photos/right.svg"></div>
+                                        </div>
+                                        <div _ngcontent-oqk-c127="" class="owl-dots disabled ng-star-inserted">
+                                            <!---->
+                                        </div>
+                                        <!---->
+                                        <!---->
+                                    </div>
+                                </owl-carousel-o>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </app-top-rated-doctors>
+    </div>
+    
+    <!-- end Services -->
+    <!-- Start Futures -->
+        <div class="Futures">
+            <div class="container">
+                <app-download-app _ngcontent-abl-c140="" _nghost-abl-c138="">
+                    <div _ngcontent-abl-c138="" class="sec-layout">
+                        <section _ngcontent-abl-c138="">
+                            <div _ngcontent-abl-c138="" class="container">
+                                <div _ngcontent-abl-c138="" class="row">
+                                    <div _ngcontent-abl-c138="" class="col-12 col-xl-7 d-flex align-items-center">
+                                        <div _ngcontent-abl-c138="">
+                                            <h2 _ngcontent-abl-c138="">Download the EMBER app</h2>
+                                            <h3 _ngcontent-abl-c138=""> Access video consultation with top doctors on the EMBER app.
+                                                Connect with doctors online, available 24/7, from the comfort of your home. </h3>
+                                            <p _ngcontent-abl-c138=""> The EMBER app is the quickest, easiest way to book and keep track
+                                                of your appointment </p><a _ngcontent-abl-c138="" target="_blank"
+                                                href="https://play.google.com/store/apps/details?id=com.ember.patient&amp;hl=en&amp;gl=US"
+                                                class="btn btn-primary store-btn"><img _ngcontent-abl-c138=""
+                                                    src="assets/images/Icon awesome-google-play.svg" alt=""> Google Play </a><a
+                                                _ngcontent-abl-c138="" target="_blank"
+                                                href="https://apps.apple.com/us/app/ember-patient/id1436581551"
+                                                class="btn btn-primary store-btn"><img _ngcontent-abl-c138=""
+                                                    src="assets/images/Icon awesome-apple.svg" alt=""> App Store </a>
+                                        </div>
+                                    </div>
+                                    <div _ngcontent-abl-c138=""
+                                        class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 offset-xl-0 col-xl-5">
+                                        <img _ngcontent-abl-c138="" src="./photos/Mobile.png" alt="" class="mob-screenshot">
+                                    </div>
+                                </div>
+                            </div><img _ngcontent-abl-c138="" src="assets/images/download-right-bottom.svg" alt=""
+                                class="bg-right-bottom"><img _ngcontent-abl-c138="" src="assets/images/download-left-top.svg" alt=""
+                                class="bg-left-top"><img _ngcontent-abl-c138="" src="assets/images/download-left-bottom.svg" alt=""
+                                class="bg-left-bottom">
+                        </section>
+                    </div>
+                </app-download-app>
+                
+            </div>
+        </div>
+    <!-- End Futures -->
+    <!-- start Privte  -->
+    <app-private-practices _ngcontent-abl-c140="" _nghost-abl-c139="">
+        <section _ngcontent-abl-c139="">
+            <div _ngcontent-abl-c139="" class="container">
+                <div _ngcontent-abl-c139="" class="row">
+                    <div _ngcontent-abl-c139="" class="col-12 col-lg-6 d-flex align-items-center mb-4 mb-lg-0">
+                        <div _ngcontent-abl-c139="">
+                            <h3 _ngcontent-abl-c139="">EMBER for private practices</h3>
+                            <h2 _ngcontent-abl-c139="">Are you a provider interested in reaching new patients?</h2>
+                            <p _ngcontent-abl-c139=""> Reach patients in your area looking for a new provider Fill
+                                last-minute openings in your schedule Strengthen your online reputation with verified
+                                reviews </p><button _ngcontent-abl-c139="" routerlink="/join-us" class="btn btn-primary"
+                                tabindex="0">Join in</button>
+                        </div>
+                    </div>
+                    <div _ngcontent-abl-c139="" class="col-12 col-lg-6"><img _ngcontent-abl-c139=""
+                            src="./photos/Join-us-image.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+    </app-private-practices>
+    <!-- end Privte  -->
+    <!-- Start Footer -->
+    <app-footer _ngcontent-abl-c143="" _nghost-abl-c142="">
+        <footer _ngcontent-abl-c142="">
+            <div _ngcontent-abl-c142="" class="container">
+                <div _ngcontent-abl-c142="" class="row">
+                    <div _ngcontent-abl-c142="" class="col-12"><img _ngcontent-abl-c142="" id="footer-logo"
+                            src="assets/images/LOGO1-1@2x.png" alt=""></div>
+                    <div _ngcontent-abl-c142="" class="col-12 col-xl-3">
+                        <p _ngcontent-abl-c142=""> EMBER connects you with a medical professional at the tap of a button.
+                            Choose a video or live chat consultation with a certified EMBER Medic to determine whether a
+                            visit to the ER, urgent care, or primary care physician is best for you. No waiting rooms
+                            required. </p>
+                    </div>
+                    <div _ngcontent-abl-c142="" class="col-12 col-md-4 col-xl-3">
+                        <h2 _ngcontent-abl-c142="">Need Help?</h2>
+                        <ul _ngcontent-abl-c142="" class="list-unstyled">
+                            <li _ngcontent-abl-c142=""><a _ngcontent-abl-c142="" routerlink="/contact-us"
+                                    href="/contact-us">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div _ngcontent-abl-c142="" class="col-12"><a _ngcontent-abl-c142=""
+                            href="https://www.facebook.com/EmberEgypt/" target="_blank">
+                            <fa-icon _ngcontent-abl-c142="" class="ng-fa-icon"><svg role="img" aria-hidden="true" 
+                                    focusable="false" data-prefix="fab" data-icon="facebook-f" style="width: 17px;"
+                                    class="svg-inline--fa fa-facebook-f fa-w-10" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512">
+                                    <path fill="currentColor" 
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                    </path>
+                                </svg></fa-icon>
+                        </a><a _ngcontent-abl-c142="" href="https://twitter.com/embermedical" target="_blank">
+                            <fa-icon _ngcontent-abl-c142="" class="ng-fa-icon"><svg role="img" aria-hidden="true"
+                                    focusable="false" data-prefix="fab" data-icon="twitter" style="width: 20px;"
+                                    class="svg-inline--fa fa-twitter fa-w-16" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                </svg></fa-icon>
+                        </a><a _ngcontent-abl-c142="" href="https://www.instagram.com/ember_eg" target="_blank">
+                            <fa-icon _ngcontent-abl-c142="" class="ng-fa-icon"><svg role="img" aria-hidden="true"
+                                    focusable="false" data-prefix="fab" data-icon="instagram" style="width: 20px;"
+                                    class="svg-inline--fa fa-instagram fa-w-14" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                    </path>
+                                </svg></fa-icon>
+                        </a><a _ngcontent-abl-c142="" href="https://www.youtube.com/channel/UCKantaJE-ynS_90E6G3IGhQ"
+                            target="_blank">
+                            <fa-icon _ngcontent-abl-c142="" class="ng-fa-icon"><svg role="img" aria-hidden="true"
+                                    focusable="false" data-prefix="fab" data-icon="youtube" style="width: 20px;"
+                                    class="svg-inline--fa fa-youtube fa-w-18" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                    </path>
+                                </svg></fa-icon>
+                        </a><a _ngcontent-abl-c142="" href="https://www.linkedin.com/company/embermedical/" target="_blank">
+                            <fa-icon _ngcontent-abl-c142="" class="ng-fa-icon"><svg role="img" aria-hidden="true"
+                                    focusable="false" data-prefix="fab" data-icon="linkedin" style="width: 20px;"
+                                    class="svg-inline--fa fa-linkedin fa-w-14" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                    </path>
+                                </svg></fa-icon>
+                        </a></div>
+                </div>
+            </div>
+        </footer>
+        <div _ngcontent-abl-c142="" class="copyright">
+            <div _ngcontent-abl-c142="" class="container"> © EMBER 2022 All Rights Reserved. </div>
+        </div>
+    </app-footer>
+    <!-- End Footer -->
+</body>
+</html>
